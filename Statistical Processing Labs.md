@@ -75,5 +75,19 @@ index=web sourcetype=access_combined
 index=web sourcetype=access_combined
 | top referer_domain limit=2 showperc=f
 ```
+Save your search as a report with the name L1S4.
+
+## Task 7: Use the stats command to count badge swipes at the Buttercup Games offices in San Francisco, Boston, and London. 
+Scenario: Facilities needs to know how many people are accessing the Buttercup Games offices daily.
+
+Search the badge reader data (index=security sourcetype=history_access) over the Last 24 hours. 
+
+Investigate the data and the fields in the Interesting Fields list. Find the field that contains the office location values, e.g. "San Francisco", "Boston", and "London." Use the stats command to count events  by this field. 
+
+```
+index=security sourcetype=history_access
+| stats dc(Username) as "Badgedin Employees" by Address_Description
+```
+
                                                   
                                                   
