@@ -20,5 +20,5 @@ Save your search as a report with the name L1S1.
 
 ```spl
   index=network sourcetype=cisco_wsa_squid
-|
+| timechart count by usage
   ```
