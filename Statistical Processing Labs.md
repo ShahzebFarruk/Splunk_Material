@@ -90,7 +90,7 @@ index=security sourcetype=history_access
 ```
 
 # Lab Exercise 2 – Manipulating Data with eval Command 
-Task 1: Edit the search to round the values of Ratio. 
+## Task 1: Edit the search to round the values of Ratio. 
 Scenario: Networking wants to know the total GET and POST requests and the ratio of GET to POST requests for each web server over the last 4 hours. 
 
 Edit this search so that the values of Ratio are rounded to two decimal places. Run the modified search over the Last 4 hours.  
@@ -109,7 +109,7 @@ index=web sourcetype=access_combined
 ```
 Save your search as a report with the name L2S1. 
 
-Task 2: Use the stats command and the eval command to transform and manipulate event data. 
+## Task 2: Use the stats command and the eval command to transform and manipulate event data. 
 
 Scenario: Sales wants to know the total events, average price, and total price for each action performed by visitors to the online store during the previous week. 
 
