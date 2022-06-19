@@ -89,5 +89,7 @@ index=security sourcetype=history_access
 | stats dc(Username) as "Badgedin Employees" by Address_Description
 ```
 
-                                                  
+# Lab Exercise 2 – Manipulating Data with eval Command 
+
+                                                 
                                                   
