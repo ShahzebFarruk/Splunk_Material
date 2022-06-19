@@ -22,3 +22,7 @@ Save your search as a report with the name L1S1.
   index=network sourcetype=cisco_wsa_squid
 | timechart count by usage
   ```
+
+Scenario: Security wants to add a dashboard panel that displays the top 10 IPs associated with "Accepted" and "Failed" events on the web server. 
+  Task 3: Complete a search with the chart command to create a multi-series visualization. 
+  
