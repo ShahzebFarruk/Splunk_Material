@@ -38,5 +38,6 @@ index=security sourcetype=linux_secure vendor_action!="session opened" | <missin
  index=security sourcetype=linux_secure vendor_action!="session opened"
 | chart count over vendor_action by src_ip
  ```
-  
-  
+![image](https://github.com/ShahzebFarruk/Splunk_Material/blob/main/Statistical%20Labs/table3.png)
+
+
