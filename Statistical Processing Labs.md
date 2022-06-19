@@ -17,4 +17,7 @@ Visualize results as a Line Chart.
 
   
 Save your search as a report with the name L1S1.
-  
+
+``` index=network sourcetype=cisco_wsa_squid
+|
+  ```
