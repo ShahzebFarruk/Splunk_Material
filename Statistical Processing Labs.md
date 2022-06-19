@@ -100,6 +100,12 @@ index=web sourcetype=access_combined
 | eval Ratio = GET/POST 
 ```
 
+Solution:
 
+```
+index=web sourcetype=access_combined 
+| chart count over host by method 
+| eval Ratio = round(GET/POST,2)
+```
                                                  
                                                   
