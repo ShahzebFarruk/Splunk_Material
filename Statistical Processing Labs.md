@@ -116,6 +116,7 @@ Scenario: Sales wants to know the total events, average price, and total price f
 Perform the following tasks on online sales data (index=web sourcetype=access_combined) over the Previous week: 
                                                   
 a. Calculate the total events by action. 
+
 b. Calculate the average price and sum of price by each action. 
 c. Rename the count, average, and sum fields as "Total Events", "Average Price", and "Total Amount", respectively. 
 d. Round Total Amount and Average Price values to two decimal places. 
