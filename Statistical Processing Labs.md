@@ -27,3 +27,8 @@ Scenario: Security wants to add a dashboard panel that displays the top 10 IPs a
   
   Task 3: Complete a search with the chart command to create a multi-series visualization. 
   
+  Complete the <missing> portion of the search with the chart command so that the output displays a count of events for each vendor_action value by src_ip. Run the search over the Last 24 hours. 
+  
+index=security sourcetype=linux_secure vendor_action!="session opened" | <missing> 
+  
+  
