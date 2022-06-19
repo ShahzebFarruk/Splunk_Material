@@ -128,3 +128,7 @@ index=web sourcetype=access_combined
 ```
 Save your search as a report with the name L2S2.                                             
                                                   
+## Task 3: Chart daily volume with timechart and use eval to convert bytes to megabytes.
+Scenario: Networking wants to know the daily volume (in MB) handled by all Buttercup Games online sales servers over the previous week.
+
+index=web sourcetype=access_combined
