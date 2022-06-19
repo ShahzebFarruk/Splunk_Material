@@ -7,7 +7,7 @@ Count usage events from the web security appliance data by completing the <missi
 index=network sourcetype=cisco_wsa_squid | <missing>  
 ![image](https://github.com/ShahzebFarruk/Splunk_Material/blob/main/Statistical%20Labs/table1.png)
 
-
-
-
-![image](https://user-images.githubusercontent.com/61950234/111899149-1103e380-8a01-11eb-9d7e-d1fdefac4d30.png)
+Visualize results as a Line Chart. 
+![image(https://github.com/ShahzebFarruk/Splunk_Material/blob/main/Statistical%20Labs/table2.png)
+  Save your search as a report with the name L1S1.
+  
