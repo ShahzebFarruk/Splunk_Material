@@ -62,8 +62,9 @@ index=sales sourcetype=vendor_sales VendorID<4000
 | chart count over VendorCountry by product_name useother=f limit=5
 ```
 Save your search as a report with the name L1S 3 .
+![image](https://github.com/ShahzebFarruk/Splunk_Material/blob/main/Statistical%20Labs/table4.png)
 
 ##  Task 5: Use the top command to identify which domains website visitors are using
 Scenario: Sales and Marketing want to know the two most popular referrer domains our website users are coming from.
 
-![image](https://github.com/ShahzebFarruk/Splunk_Material/blob/main/Statistical%20Labs/table4.png)
+
