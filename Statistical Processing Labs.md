@@ -124,7 +124,7 @@ e. Sort Total Amount in descending order.
 index=web sourcetype=access_combined
 | stats count as "Total Events" avg(price) as "Average Price" sum(price) as "Total Amount" by action
 | eval 'Total Amount'=round('Total Amount',2), 'Average Price'=round('Average Price',2)                                                 
-
+| sort -'Total Amount'
 ```
 Save your search as a report with the name L2S2.                                             
                                                   
