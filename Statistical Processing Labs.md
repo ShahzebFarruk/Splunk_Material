@@ -1,3 +1,5 @@
+Disclaimer: All Rights Reserved. All the material is self created and not copied from somewhere. This is a solution guide to Splunk Training Labs present on education.splunk. I give anyone rights to use the material in a form to help increase your knowledge.
+
 ## Task 1: Log into Splunk and change the account name and time zone. 
 
  
@@ -38,6 +40,8 @@ index=security sourcetype=linux_secure vendor_action!="session opened" | <missin
  index=security sourcetype=linux_secure vendor_action!="session opened"
 | chart count over vendor_action by src_ip
  ```
+Suggesation: split events by 1st field i.r vendor_action. Then the count for failed and accepted will be shown. Then the multivalue split comes into picture and add by src_ip. The Chart virtualizaition will be further split by src_ips.
+ 
 ![image](https://github.com/ShahzebFarruk/Splunk_Material/blob/main/Statistical%20Labs/table3.png)
 
 
