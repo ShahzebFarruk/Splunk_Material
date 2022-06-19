@@ -73,7 +73,7 @@ index=web sourcetype=access_combined
 
 ```
 index=web sourcetype=access_combined
-| top referer_domain showperc=f
+| top referer_domain limit=2 showperc=f
 ```
                                                   
                                                   
