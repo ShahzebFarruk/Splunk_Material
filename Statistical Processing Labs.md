@@ -114,6 +114,7 @@ Task 2: Use the stats command and the eval command to transform and manipulate e
 Scenario: Sales wants to know the total events, average price, and total price for each action performed by visitors to the online store during the previous week. 
 
 Perform the following tasks on online sales data (index=web sourcetype=access_combined) over the Previous week: 
+                                                  
 a. Calculate the total events by action. 
 b. Calculate the average price and sum of price by each action. 
 c. Rename the count, average, and sum fields as "Total Events", "Average Price", and "Total Amount", respectively. 
