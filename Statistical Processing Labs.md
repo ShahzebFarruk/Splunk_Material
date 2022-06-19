@@ -94,10 +94,11 @@ Task 1: Edit the search to round the values of Ratio.
 Scenario: Networking wants to know the total GET and POST requests and the ratio of GET to POST requests for each web server over the last 4 hours. 
 
 Edit this search so that the values of Ratio are rounded to two decimal places. Run the modified search over the Last 4 hours.  
-
+```
 index=web sourcetype=access_combined 
 | chart count over host by method 
 | eval Ratio = GET/POST 
+```
 
 
                                                  
