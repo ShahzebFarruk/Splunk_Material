@@ -1,8 +1,9 @@
 ## Task 1: Log into Splunk and change the account name and time zone. 
 
-Scenario: The Network team wants to add a dashboard panel that displays internet usage over the last  24 hours. 
+ 
 
 ## Task 2: Complete a search with the timechart command to create a multi-series visualization. 
+Scenario: The Network team wants to add a dashboard panel that displays internet usage over the last  24 hours.
 
 Count usage events from the web security appliance data by completing the <missing> portion of the search with the timechart command. Run the search over the Last 24 hours. 
 
@@ -23,9 +24,11 @@ Save your search as a report with the name L1S1.
 | timechart count by usage
   ```
 
-Scenario: Security wants to add a dashboard panel that displays the top 10 IPs associated with "Accepted" and "Failed" events on the web server.
+
   
 ## Task 3: Complete a search with the chart command to create a multi-series visualization. 
+
+Scenario: Security wants to add a dashboard panel that displays the top 10 IPs associated with "Accepted" and "Failed" events on the web server.
   
   Complete the <missing> portion of the search with the chart command so that the output displays a count of events for each vendor_action value by src_ip. Run the search over the Last 24 hours. 
   
