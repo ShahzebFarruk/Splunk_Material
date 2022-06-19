@@ -44,4 +44,24 @@ Suggesation: split events by 1st field i.e vendor_action. Then the count for fai
  
 ![image](https://github.com/ShahzebFarruk/Splunk_Material/blob/main/Statistical%20Labs/table3.png)
 
+Save your search as a report with the name L1S2. 
+ 
+## Task 4: Complete a search with the chart command to create a multi-series visualization. 
+Scenario: Sales wants to know the 5 best-selling products for North American vendors over the previous week. 
 
+Complete the <missing> portion of this search with the chart command so that the output displays a count of events for each VendorCountry. Run the search over the Previous week. (Note: The basic search contains VendorID<4000 because in our environment the VendorIDs for North American countries are 1000 – 2999 for USA and 3000 – 3999 for Canada.) 
+
+index=sales sourcetype=vendor_sales VendorID<4000 | <missing> 
+Split your data by product_name to see a count of each product sold in USA and Canada. 
+Finally, edit the chart command so that only the top 5 best-selling products are displayed without an OTHER category. 
+
+
+
+```spl
+index=sales sourcetype=vendor_sales VendorID<4000 
+| chart count over VendorCountry by product_name useother=f limit=5
+```
+Save your search as a report with the name L1S 3 .
+
+##  Task 5: Use the top command to identify which domains website visitors are using
+Scenario: Sales and Marketing want to know the two most popular referrer domains our website users are coming from.
