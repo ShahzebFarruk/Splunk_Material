@@ -67,4 +67,13 @@ Save your search as a report with the name L1S 3 .
 ##  Task 5: Use the top command to identify which domains website visitors are using
 Scenario: Sales and Marketing want to know the two most popular referrer domains our website users are coming from.
 
+This search finds all events from online sales data. However, Sales is only interested in external domains. Edit this search so that only events where the referer_domain , i.e. the domain of the visitor clicked on that led to the http request for a specific product, is not http: //www.buttercupgames.com . Run the search over the 
 
+index=web sourcetype=access_combined
+
+```
+index=web sourcetype=access_combined
+| top referer_domain showperc=f
+```
+                                                  
+                                                  
